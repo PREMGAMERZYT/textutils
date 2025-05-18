@@ -1,0 +1,249 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #eaeaea;
+  margin: 0 0 2rem 0;
+}
+
+.navbar__logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.navbar__logo p {
+  margin: 0;
+  font-size: 20px;
+  color: #666;
+}
+
+.all-infopage {
+  display: flex;
+  align-items: center;
+}
+
+.all-infopage ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.all-infopage ul li {
+  font-size: 15px;
+  color: #333;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.com {
+  text-decoration: none;
+  color: #333;
+}
+
+.button-body {
+  width: 30px;
+  height: 15px;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;  
+}
+
+.btn-toggle {
+  width: 12.5px;
+  height: 12.5px;
+  border-radius: 50%;
+  background-color: #333;
+  border: none;
+  outline: none;
+  transition: transform 0.3s ease;
+  margin-left: 1px;
+  cursor: pointer;
+}
+
+@media (max-width: 390px) {
+  .navbar {
+    /* width: 44vh; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar__logo {
+    margin-bottom: 10px;
+  }
+
+  .all-infopage ul {
+    /* flex-direction: column; */
+    gap: 10px;
+  }
+
+  .all-infopage ul li {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    /* width: 44vh; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar__logo {
+    margin-bottom: 10px;
+  }
+
+  .all-infopage ul {
+    /* flex-direction: column; */
+    gap: 10px;
+  }
+
+  .all-infopage ul li {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .navbar {
+    /* width: 44vh; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar__logo {
+    margin-bottom: 10px;
+  }
+
+  .all-infopage ul {
+    /* flex-direction: column; */
+    gap: 10px;
+  }
+
+  .all-infopage ul li {
+    font-size: 14px;
+  }
+  .button-body {
+    width: 30px;
+    height: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;  
+  }
+  .btn-toggle {
+    width: 12.5px;
+    height: 12.5px;
+    border-radius: 50%;
+    background-color: #333;
+    border: none;
+    outline: none;
+    transition: transform 0.3s ease;
+    margin-left: 1px;
+    cursor: pointer;
+  }
+  .navbar__logo p {
+    margin: 0;
+    font-size: 20px;
+    color: #666;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .navbar {
+    /* width: 44vh; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar__logo {
+    margin-bottom: 10px;
+  }
+
+  .all-infopage ul {
+    /* flex-direction: column; */
+    gap: 10px;
+  }
+
+  .all-infopage ul li {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .navbar {
+    /* width: 44vh; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar__logo {
+    margin-bottom: 10px;
+  }
+
+  .all-infopage ul {
+    /* flex-direction: column; */
+    gap: 10px;
+  }
+
+  .all-infopage ul li {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .navbar {
+    /* width: 44vh; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar__logo {
+    margin-bottom: 10px;
+  }
+
+  .all-infopage ul {
+    /* flex-direction: column; */
+    gap: 10px;
+  }
+
+  .all-infopage ul li {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1441px) {
+  .navbar {
+    /* width: 44vh; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar__logo {
+    margin-bottom: 10px;
+  }
+
+  .all-infopage ul {
+    /* flex-direction: column; */
+    gap: 10px;
+  }
+
+  .all-infopage ul li {
+    font-size: 14px;
+  }
+}

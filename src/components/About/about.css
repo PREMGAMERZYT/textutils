@@ -1,0 +1,519 @@
+.about {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 20% 0 20%;
+  transition: all 0.5s ease;
+}
+
+.heading {
+  font-size: 0.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.aboutextutlis {
+  font-size: 0.8rem;
+  color: #555;
+  margin-bottom: 20px;
+  margin-top: 4rem;
+}
+
+.whatcanudo {
+  font-size: 0.8rem;
+  color: #555;
+  margin-bottom: 20px;
+  margin-top: 4rem;
+}
+
+.heading1 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+  margin-top: 4rem;
+}
+
+.heading1 p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+  margin-top: 4rem;
+}
+
+.allfea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.allfea ul {
+  /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+  margin: 0;
+  padding: 0;
+}
+
+.allfea ul li {
+  padding-right: 1rem;
+  margin: 0 10px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  color: #fff;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+  /* padding: 0.5rem 1rem; */
+  margin: 0 0 1rem 0;
+  border-radius: 5px;
+  background-color: #282c34;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: #282c34;
+  transition: background-color 0.3s ease;
+}
+
+.allfea ul li:hover {
+  background-color: #61dafb;
+}
+
+.allfea ul li:hover p {
+  color: #282c34;
+}
+
+.whatuse {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  gap: 20px;
+}
+
+.heading2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.heading2 p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+  margin-top: 4rem;
+}
+
+.allfeat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.allfeat ul {
+  /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+  margin: 0;
+  padding: 0;
+}
+
+.allfeat ul li {
+  padding-right: 1rem;
+  margin: 0 10px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  color: #fff;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+  /* padding: 0.5rem 1rem; */
+  margin: 0 0 1rem 0;
+  border-radius: 5px;
+  background-color: #282c34;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: #282c34;
+  transition: background-color 0.3s ease;
+}
+.allfeat ul li:hover {
+  background-color: #61dafb;
+}
+.allfeat ul li:hover p {
+  color: #282c34;
+}
+
+.heading3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.heading3 p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+  margin-top: 4rem;
+}
+
+.allfeatures {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.allfeatures ul {
+  /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+  margin: 0;
+  padding: 0;
+}
+
+.allfeatures ul li {
+  padding-right: 1rem;
+  margin: 0 10px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  color: #fff;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+  /* padding: 0.5rem 1rem; */
+  margin: 0 0 1rem 0;
+  border-radius: 5px;
+  background-color: #282c34;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: #282c34;
+  transition: background-color 0.3s ease;
+}
+
+.allfeatures ul li:hover {
+  background-color: #61dafb;
+}
+.allfeatures ul li:hover p {
+  color: #282c34;
+}
+
+.featuresplans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.heading4 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.heading4 p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+  margin-top: 4rem;
+}
+
+.allfeatr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.allfeatr ul {
+  /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+  margin: 0;
+  padding: 0;
+}
+
+.allfeatr ul li {
+  padding-right: 1rem;
+  margin: 0 10px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  color: #fff;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+  /* padding: 0.5rem 1rem; */
+  margin: 0 0 1rem 0;
+  border-radius: 5px;
+  background-color: #282c34;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: #282c34;
+  transition: background-color 0.3s ease;
+}
+
+.allfeatr ul li:hover {
+  background-color: #61dafb;
+}
+
+.allfeatr ul li:hover p {
+  color: #282c34;
+}
+
+@media (max-width: 480px) {
+  .about {
+    margin: 0 5% 0 5%;
+    padding: 10px;
+  }
+
+  .heading {
+    font-size: 1rem;
+  }
+
+  .aboutextutlis {
+    font-size: 1rem;
+  }
+
+  .whatcanudo {
+    font-size: 1rem;
+  }
+
+  .heading1 {
+    font-size: 1.5rem;
+  }
+
+  .heading1 p {
+    font-size: 1rem;
+  }
+}
+.allfea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.allfea ul li {
+  font-size: 1rem;
+}
+
+.whatuse {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  gap: 10px;
+}
+
+.heading2 {
+  font-size: 1.5rem;
+}
+
+.heading2 p {
+  font-size: 1rem;
+}
+
+.allfeat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.allfeatures {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (max-width: 576px) {
+  .heading3 {
+    font-size: 1.5rem;
+  }
+
+  .heading3 p {
+    font-size: 1rem;
+  }
+
+  .allfeatures ul li {
+    font-size: 1rem;
+  }
+
+  .featuresplans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .heading4 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+
+  .heading4 p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .heading3 {
+    font-size: 1.5rem;
+  }
+
+  .heading3 p {
+    font-size: 1rem;
+  }
+
+  .allfeatures ul li {
+    font-size: 1rem;
+  }
+
+  .featuresplans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .heading4 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+
+  .heading4 p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .heading3 {
+    font-size: 1.5rem;
+  }
+
+  .heading3 p {
+    font-size: 1rem;
+  }
+
+  .allfeatures ul li {
+    font-size: 1rem;
+  }
+
+  .featuresplans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .heading4 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+
+  .heading4 p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .heading3 {
+    font-size: 1.5rem;
+  }
+
+  .heading3 p {
+    font-size: 1rem;
+  }
+
+  .allfeatures ul li {
+    font-size: 1rem;
+  }
+
+  .featuresplans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .heading4 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+
+  .heading4 p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1441px) {
+  .heading3 {
+    font-size: 1.5rem;
+  }
+
+  .heading3 p {
+    font-size: 1rem;
+  }
+
+  .allfeatures ul li {
+    font-size: 1rem;
+  }
+
+  .featuresplans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .heading4 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+
+  .heading4 p {
+    font-size: 1rem;
+  }
+}
