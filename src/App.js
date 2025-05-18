@@ -37,7 +37,7 @@ function App() {
       setDarkMode("light");
       document.body.style.backgroundColor = "#fff";
       document.body.style.color = "#000";
-    } else if(darkMode === "light") {
+    } else if (darkMode === "light") {
       setDarkMode("dark");
       document.body.style.backgroundColor = "#333";
       document.body.style.color = "#fff";
@@ -45,14 +45,15 @@ function App() {
   }
 
   return (
-    <Router>
-        <Navbar handleDarkMode={handleDarkMode} clicked={clicked} slider={slider} />
-      <Routes>
-        <Route path="/" element={<Mainfunction />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        {/* <Mainfunction /> */}
-      </Routes>
-    </Router>
+    <>
+      <Navbar
+        handleDarkMode={handleDarkMode}
+        clicked={clicked}
+        slider={slider}
+      />
+
+      <Mainfunction />
+    </>
   );
 }
 

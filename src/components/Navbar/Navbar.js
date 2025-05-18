@@ -1,6 +1,5 @@
 import React from "react";
 import "./navbar.css";
-import { Link } from "react-router-dom";
 
 function Navbar(probs) {
   return (
@@ -10,21 +9,9 @@ function Navbar(probs) {
           <p>TextUtlis</p>
           <div className="all-infopage">
             <ul>
-              <li>
-                <Link className="com" to="">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link className="com" to="/about">
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link className="com" to="">
-                  Books
-                </Link>
-              </li>
+              <li>Home</li>
+              <li>About</li>
+              <li>Books</li>
             </ul>
           </div>
         </div>
