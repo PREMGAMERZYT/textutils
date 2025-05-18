@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PREMGAMERZYT/textutils/static/css/main.0c18f635.css",
+    "main.js": "/PREMGAMERZYT/textutils/static/js/main.e026b5f6.js",
+    "static/js/453.ed3810f9.chunk.js": "/PREMGAMERZYT/textutils/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/PREMGAMERZYT/textutils/index.html",
+    "main.0c18f635.css.map": "/PREMGAMERZYT/textutils/static/css/main.0c18f635.css.map",
+    "main.e026b5f6.js.map": "/PREMGAMERZYT/textutils/static/js/main.e026b5f6.js.map",
+    "453.ed3810f9.chunk.js.map": "/PREMGAMERZYT/textutils/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c18f635.css",
+    "static/js/main.e026b5f6.js"
+  ]
+}
