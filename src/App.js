@@ -1,7 +1,6 @@
 // import logo from './logo.svg';
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { useState } from "react";
 import Mainfunction from "./components/Myoperation/Mainfunction";
 import About from "./components/About/About";
