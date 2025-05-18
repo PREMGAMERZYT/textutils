@@ -7,13 +7,6 @@ function Navbar(probs) {
       <div className="navbar">
         <div className="navbar__logo">
           <p>TextUtlis</p>
-          <div className="all-infopage">
-            <ul>
-              <li>Home</li>
-              <li>About</li>
-              <li>Books</li>
-            </ul>
-          </div>
         </div>
 
         <div className="switch">
