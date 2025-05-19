@@ -3,7 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import { useState } from "react";
 import Mainfunction from "./components/Myoperation/Mainfunction";
-import About from "./components/About/About";
+// import About from "./components/About/About";
 
 function App() {
   // for slider of light mode and dark mode

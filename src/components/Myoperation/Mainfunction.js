@@ -47,14 +47,16 @@ function Text() {
             onChange={handleChange}
           ></textarea>
           <div className="features">
-            <button className="butns" onClick={handleUppercase}>To Uppercase</button>
-            <button className="butns" onClick={handleLowercase}>To Lowercase</button>
-            <button className="butns" onClick={handleCopy}>To Copytext</button>
-            <button className="butns" onClick={handleclear}>To Clear</button>
+            <button className="butns" disabled={text.length === 0} onClick={handleUppercase}>To Uppercase</button>
+            <button className="butns" disabled={text.length === 0} onClick={handleLowercase}>To Lowercase</button>
+            <button className="butns" disabled={text.length === 0} onClick={handleCopy}>To Copytext</button>
+            <button className="butns" disabled={text.length === 0} onClick={handleclear}>To Clear</button>
           </div>
           <div className="details">
             <div className="words common">
-              <h3>Words Count: {text.split(" ").length}</h3>
+              <h3>Words Count: {text.split(" ").filter((element) => {
+                return element.length !== 0;
+              }).length}</h3>
              
             </div>
             <div className="lines common">
