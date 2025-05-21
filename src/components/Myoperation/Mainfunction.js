@@ -1,9 +1,23 @@
-import React from "react";
+// import React from "react";
 import "./text.css";
+import React, { useEffect, useRef } from "react";
+import Typed from "typed.js";
 
 function Text() {
-
   const [text, setText] = React.useState("Enter your text here...");
+
+  const typedRef = useRef(null); // Ref for heading
+
+  useEffect(() => {
+    const typed = new Typed(typedRef.current, {
+      strings: ["TextUtils"],
+      typeSpeed: 80,
+    });
+
+    return () => {
+      typed.destroy();
+    };
+  }, []);
 
   function handleUppercase() {
     let newText = text.toUpperCase();
@@ -29,13 +43,11 @@ function Text() {
     setText(event.target.value);
   }
 
-
-
   return (
     <>
       <div className="main">
         <div className="text__container">
-          <h1>TextUtils</h1>
+          <h1><span ref={typedRef}></span></h1>
         </div>
         <div className="text__area">
           <textarea
@@ -47,25 +59,35 @@ function Text() {
             onChange={handleChange}
           ></textarea>
           <div className="features">
-            <button className="butns" disabled={text.length === 0} onClick={handleUppercase}>To Uppercase</button>
-            <button className="butns" disabled={text.length === 0} onClick={handleLowercase}>To Lowercase</button>
-            <button className="butns" disabled={text.length === 0} onClick={handleCopy}>To Copytext</button>
-            <button className="butns" disabled={text.length === 0} onClick={handleclear}>To Clear</button>
+            <button className="butns" onClick={handleUppercase}>
+              To Uppercase
+            </button>
+            <button className="butns" onClick={handleLowercase}>
+              To Lowercase
+            </button>
+            <button className="butns" onClick={handleCopy}>
+              To Copytext
+            </button>
+            <button className="butns" onClick={handleclear}>
+              To Clear
+            </button>
           </div>
           <div className="details">
             <div className="words common">
-              <h3>Words Count: {text.split(" ").filter((element) => {
-                return element.length !== 0;
-              }).length}</h3>
-             
+              <h3>
+                Words Count:{" "}
+                {
+                  text.split(" ").filter((element) => {
+                    return element.length !== 0;
+                  }).length
+                }
+              </h3>
             </div>
             <div className="lines common">
               <h3>Lines Count: {text.split("\n").length}</h3>
-              
             </div>
             <div className="characters common">
-              <h3>Characters: {text.length}</h3>
-              
+              <h3>Characters Count: {text.length}</h3>
             </div>
           </div>
         </div>
