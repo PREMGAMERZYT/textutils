@@ -64,7 +64,7 @@ function Text() {
               
             </div>
             <div className="characters common">
-              <h3>Characters Count: {text.length}</h3>
+              <h3>Characters: {text.length}</h3>
               
             </div>
           </div>
